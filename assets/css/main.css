@@ -24,6 +24,29 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+.portfolio-section {
+	width:500px;
+	display:table;
+  }
+	.portfolio-section > div {
+	  width:50%;
+	  display:table-cell;
+	}
+	  .portfolio-section > div p {
+		margin:0;
+	  }
+	  .portfolio-section .left {
+		vertical-align:top;
+	  }
+	  .portfolio-section .right {
+		text-align:right;
+	  }
+
+img {
+	width: 100%;
+	height: auto;
+}
+
 body {
 	line-height: 1;
 }
