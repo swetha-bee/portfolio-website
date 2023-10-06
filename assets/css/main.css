@@ -1283,7 +1283,7 @@ input, select, textarea {
 			-webkit-transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			-ms-transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-color: #BA94D1;
+			background-color: #efc8b1;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1672,7 +1672,7 @@ input, select, textarea {
 			position: relative;
 			width: fit-content;
 			max-width: 70rem;
-			background-color: #7F669D;
+			background-color: #514644;
 			border-radius: 4px;
 			opacity: 0;
 		}
