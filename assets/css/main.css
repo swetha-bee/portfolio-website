@@ -99,23 +99,24 @@ body {
   height: 25px;
   right: -13px;
   background-color: white;
-  top: 15px;
+  top: 0;
   border-radius: 50%;
   z-index: 1;
 }
 
 /* Place the container to the left */
-.left {
+.container-left {
   left: 0;
+  text-align: right;
 }
 
 /* Place the container to the right */
-.right {
+.container-right {
   left: 50%;
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.container-right::after {
   left: -12px;
 }
 
@@ -141,12 +142,12 @@ body {
   }
 
 /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  .container-left::after, .container-right::after {
     left: 12px;
   }
 
 /* Make all right containers behave like the left ones */
-  .right {
+  .container-right {
     left: 0%;
   }
 }
