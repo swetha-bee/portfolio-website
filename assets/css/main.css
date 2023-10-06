@@ -85,7 +85,7 @@ body {
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
+  padding: 0px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -124,7 +124,6 @@ body {
 .timeline-piece {
   padding: 0px;
   position: relative;
-  border-radius: 6px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
